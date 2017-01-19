@@ -10,4 +10,4 @@ docs/_build
 build
 example/.switches
 *.log
-.venv
+.venv*

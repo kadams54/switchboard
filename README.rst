@@ -12,15 +12,13 @@ or `Pylons <https://pylonsproject.org/>`_ stack (including
 changes to `SourceForge <https://sourceforge.net/>`_, the library lets
 you easily control whether a particular change (a switch) is active.
 
-Want to learn more about feature flippers?
-------------------------------------------
+**Want to learn more about feature flippers?**
 
 Flickr has a great blog post from 2009,
-`Flipping Out <http://code.flickr.net/2009/12/02/flipping-out/>`_, that first
+`"Flipping Out" <http://code.flickr.net/2009/12/02/flipping-out/>`_, that first
 popularized the idea.
 
-Sold on the idea of a feature flipper, but not on Switchboard?
---------------------------------------------------------------
+**Sold on the idea of a feature flipper, but not on Switchboard?**
 
 Here are some of the places where Switchboard shines, relative to other feature
 flippers:

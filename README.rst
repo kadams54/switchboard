@@ -1,22 +1,43 @@
+.. image:: ./docs/images/admin-ui.png
+
 .. image:: https://travis-ci.org/switchboardpy/switchboard.svg?branch=master
     :target: https://travis-ci.org/switchboardpy/switchboard
 .. image:: http://codecov.io/github/switchboardpy/switchboard/coverage.svg?branch=master
     :target: http://codecov.io/github/switchboardpy/switchboard?branch=master
 
-Switchboard is a port of Gargoyle, a feature flipper for Django apps, to
-the Pyramid or Pylons stack (including TurboGears). Originally used to
-selectively roll out changes to the SourceForge site, the library lets
+Switchboard is a port of _Gargoyle: https://github.com/disqus/gargoyle,
+a feature flipper for Django apps, to the _Pyramid: https://trypyramid.com/
+or _Pylons: https://pylonsproject.org/ stack (including
+_TurboGears: http://turbogears.org/). Originally used to selectively roll out
+changes to _SourceForge: https://sourceforge.net/, the library lets
 you easily control whether a particular change (a switch) is active.
 
-You can make switches active for a certain percentage of visitors, all
-visitors to a particular host in a cluster, or if a particular string is
-present in the query string. Furthermore you can easily create your own
-conditions to do fancier things like geo-targeting, specific users, etc.
+Want to learn more about feature flippers?
+------------------------------------------
+
+Flickr has a great blog post from 2009,
+_Flipping Out: http://code.flickr.net/2009/12/02/flipping-out/, that first
+popularized the idea.
+
+Sold on the idea of a feature flipper, but not on Switchboard?
+--------------------------------------------------------------
+
+Here are some of the places where Switchboard shines, relative to other feature
+flippers:
+
+* Switchboard has a nice admin web app for adjusting features in production,
+  without the need for a redeploy.
+* Switchboard is optimized to handle millions of hits with minimal overhead on
+  page loads.
+* Switches can be active for a certain percentage of visitors, all
+  visitors to a particular host in a cluster, or if a particular string is
+  present in the query string. They can also be customized to do fancier things
+  like geo-targeting, specific users, etc.
+
 In short, Switchboard turns you into a continuous deployment ninja.
 
-* `Switchboard on GitHub (repository and issue tracker)
-  <https://github.com/switchboardpy/switchboard/>`_
-* `Switchboard on PyPI <http://pypi.python.org/pypi/switchboard/>`_
+Quick Start
+===========
 
 Switchboard's basic unit is a switch. Every switch has a unique key
 associated with it and is either active (on) or inactive (off), so using
@@ -56,3 +77,11 @@ to Switchboard, such as parent-child switches, creating your own
 conditoion sets, and setting up default settings for certain types of
 switches, the quick intro above should give you a taste of what it's
 capable of doing.
+
+More Information
+================
+
+* `Switchboard on GitHub (repository and issue tracker)
+  <https://github.com/switchboardpy/switchboard/>`_
+* `Switchboard on PyPI <http://pypi.python.org/pypi/switchboard/>`_
+

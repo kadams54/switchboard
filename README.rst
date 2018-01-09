@@ -5,18 +5,18 @@
 .. image:: http://codecov.io/github/switchboardpy/switchboard/coverage.svg?branch=master
     :target: http://codecov.io/github/switchboardpy/switchboard?branch=master
 
-Switchboard is a port of _Gargoyle: https://github.com/disqus/gargoyle,
-a feature flipper for Django apps, to the _Pyramid: https://trypyramid.com/
-or _Pylons: https://pylonsproject.org/ stack (including
-_TurboGears: http://turbogears.org/). Originally used to selectively roll out
-changes to _SourceForge: https://sourceforge.net/, the library lets
+Switchboard is a port of `Gargoyle <https://github.com/disqus/gargoyle>`_,
+a feature flipper for Django apps, to the `Pyramid <https://trypyramid.com/>`_
+or `Pylons <https://pylonsproject.org/>`_ stack (including
+`TurboGears <http://turbogears.org/>`_). Originally used to selectively roll out
+changes to `SourceForge <https://sourceforge.net/>`_, the library lets
 you easily control whether a particular change (a switch) is active.
 
 Want to learn more about feature flippers?
 ------------------------------------------
 
 Flickr has a great blog post from 2009,
-_Flipping Out: http://code.flickr.net/2009/12/02/flipping-out/, that first
+`Flipping Out <http://code.flickr.net/2009/12/02/flipping-out/>`_, that first
 popularized the idea.
 
 Sold on the idea of a feature flipper, but not on Switchboard?
